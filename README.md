@@ -1,1 +1,1 @@
-members only ruby version
+rails version of previous members-only project, uses Devise
