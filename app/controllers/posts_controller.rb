@@ -11,7 +11,7 @@ class PostsController < ApplicationController
     private
 
     def require_login
-        unless false
+        unless user_signed_in?
             flash[:error] = 'You must be logged in to do that.'
         redirect_to posts_path 
         end
